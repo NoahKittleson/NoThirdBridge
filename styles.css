@@ -1,36 +1,61 @@
 body {
-  background-color: #fbcb97;
+  background-color: #fef0e1;
   font-family: 'Play', sans-serif;
   text-align: center;
 }
 
-.banner {
+/*.banner {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
   text-align: center;
-  background-color: #fd4b4b;
-  color: white;
+  background-color: #5d9451;
+  color: #fef0e1;
+}*/
+
+#space {
+  height:90px;
+}
+
+.test {
+  border-radius: 2px;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 600px;
+  border-color: black;
+}
+
+.banner {
+  position: absolute;
+  top: -50px;
+  left: 50px;
+  width: 100%;
+  text-align: left;
+  color: black;
+  font-size: 2em;
 }
 
 .video {
-  margin-top: 90px;
+  margin-top: 10px;
 }
 
 .downloads {
-  width: 560;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .downloads .sigsheet {
   width: 50%;
-  position: absolute;
-  top: auto;
+  position: relative;
+  top: 0px;
 }
 
 .downloads .ordinance {
-  position: absolute;
-  top: auto;
+  position: relative;
+  top: -70px;
   width: 50%;
   left: 50%;
 }
