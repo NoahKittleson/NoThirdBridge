@@ -4,6 +4,13 @@ body {
   text-align: center;
 }
 
+.container-fluid {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
 .video {
   display: inline-block;
   vertical-align: middle;
