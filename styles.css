@@ -4,30 +4,21 @@ body {
   text-align: center;
 }
 
-#videoleft {
-  background-color: red;
-}
-
-#videoright {
-  background-color: blue;
-}
-
 .video {
+  display: inline-block;
+  vertical-align: middle;
   width: 100%;
   height: 400px;
 }
 
 .downloads {
-  background-color: green;
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  height: 200px;
+  line-height: 200px;
 }
 
-.sigsheet {
-  /*nothing*/
-}
-
-.ordinance {
-  /*nothing*/
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
