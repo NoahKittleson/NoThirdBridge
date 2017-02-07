@@ -5,10 +5,13 @@ body {
 }
 
 .container-fluid {
-  position: absolute;
+  /*position: absolute;
   top: 50%;
   width: 100%;
-  transform: translateY(-50%);
+  transform: translateY(-50%);*/
+
+  margin-top: 100px;
+  width: 100%;
 }
 
 .video {
@@ -35,10 +38,11 @@ body {
 }
 
 #address {
-  position: absolute;
-  text-align: center;
-  align-self: center;
+  /*position: absolute;
   top: 80%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%);*/
+  text-align: center;
+
+  margin-top: 50px;
 }
