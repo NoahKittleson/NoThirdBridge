@@ -30,6 +30,10 @@ body {
   line-height: normal;
 }
 
+.important {
+  font-size: 20px;
+}
+
 #address {
   position: absolute;
   text-align: center;
