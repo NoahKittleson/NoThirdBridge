@@ -4,58 +4,30 @@ body {
   text-align: center;
 }
 
-/*.banner {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  text-align: center;
-  background-color: #5d9451;
-  color: #fef0e1;
-}*/
-
-#space {
-  height:90px;
+#videoleft {
+  background-color: red;
 }
 
-.test {
-  border-radius: 2px;
-  border-style: solid;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 600px;
-  border-color: black;
-}
-
-.banner {
-  position: absolute;
-  top: -50px;
-  left: 50px;
-  width: 100%;
-  text-align: left;
-  color: black;
-  font-size: 2em;
+#videoright {
+  background-color: blue;
 }
 
 .video {
-  margin-top: 10px;
+  width: 100%;
+  height: 400px;
 }
 
 .downloads {
-  width: 800px;
+  background-color: green;
   text-align: center;
-  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.downloads .sigsheet {
-  width: 50%;
-  position: relative;
-  top: 0px;
+.sigsheet {
+  /*nothing*/
 }
 
-.downloads .ordinance {
-  position: relative;
-  top: -70px;
-  width: 50%;
-  left: 50%;
+.ordinance {
+  /*nothing*/
 }
