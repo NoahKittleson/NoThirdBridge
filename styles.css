@@ -2,6 +2,7 @@ body {
   background-color: #fef0e1;
   font-family: 'Play', sans-serif;
   text-align: center;
+  font-size: 20px;
 }
 
 .container-fluid {
@@ -14,6 +15,10 @@ body {
   width: 100%;
 }
 
+#instructions {
+  text-align: left;
+}
+
 .video {
   display: inline-block;
   vertical-align: middle;
@@ -23,8 +28,7 @@ body {
 
 .downloads {
   text-align: center;
-  height: 200px;
-  line-height: 200px;
+  margin-top: 30px;
 }
 
 .item {
@@ -34,11 +38,11 @@ body {
 }
 
 .item p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .important {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #address {
