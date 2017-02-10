@@ -10,6 +10,12 @@ body {
   width: 100%;
 }
 
+.list {
+  position: relative;
+  left: 20px;
+  line-height: 40px;
+}
+
 #instructions {
   text-align: left;
 }
@@ -40,5 +46,5 @@ body {
 #address {
   text-align: center;
 
-  margin-top: 50px;
+  margin-top: 80px;
 }
