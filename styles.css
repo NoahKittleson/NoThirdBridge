@@ -6,22 +6,12 @@ body {
 }
 
 .container-fluid {
-  /*position: absolute;
-  top: 50%;
-  width: 100%;
-  transform: translateY(-50%);*/
-
   margin-top: 50px;
   width: 100%;
 }
 
 #instructions {
   text-align: left;
-}
-
-#instructions p {
-  text-align: center;
-  font-size: 30px;
 }
 
 .video {
@@ -42,19 +32,12 @@ body {
   line-height: normal;
 }
 
-.item p {
-  font-size: 30px;
-}
-
 .important {
   font-size: 30px;
+  text-align: center;
 }
 
 #address {
-  /*position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translateX(-50%);*/
   text-align: center;
 
   margin-top: 50px;
