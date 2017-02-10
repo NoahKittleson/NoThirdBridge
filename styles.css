@@ -19,6 +19,11 @@ body {
   text-align: left;
 }
 
+#instructions p {
+  text-align: center;
+  font-size: 30px;
+}
+
 .video {
   display: inline-block;
   vertical-align: middle;
